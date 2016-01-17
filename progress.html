@@ -1,0 +1,20 @@
+<head>
+  <title>Progress Bar</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> progress}}
+</body>
+
+<template name="progress">
+  <div class="progress">
+    <div class="" id="myBar" role="progressbar" aria-valuenow="70"
+    aria-valuemin="2" aria-valuemax="100" value="Text">
+    </div>
+  </div>
+  <br>
+  <input class="run btn btn-primary" value="Click Me!"/>
+  <input class="reset btn btn-primary" value="Reset!"/>
+</template>
